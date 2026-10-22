@@ -1,8 +1,8 @@
 [package]
 script_dir = scripts
 test_command = cd testing && btest -c btest.cfg
-summary = TODO: A summary of X509SPKI in one line
-description = TODO: A more detailed description of X509SPKI.
+summary = Add Subject Public Key Info (SPKI) hash to x509.log
+description = This package adds the Subject Public Key Info (SPKI) or each x509 certificate to x509.log.
 	It can span multiple lines, with this indentation.
 depends = 
 	zeek >=4.0.0
