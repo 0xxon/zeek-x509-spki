@@ -22,4 +22,3 @@ event x509_certificate(f: fa_file, cert_ref: opaque of x509, cert: X509::Certifi
 
 	f$info$x509$spki = bytestring_to_hexstr(x509_spki_hash(cert_ref, X509SPKI::hash_alg));
 	}
-

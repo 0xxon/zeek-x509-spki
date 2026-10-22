@@ -4,7 +4,7 @@ test_command = cd testing && btest -c btest.cfg
 summary = Add Subject Public Key Info (SPKI) hash to x509.log
 description = This package adds the Subject Public Key Info (SPKI) or each x509 certificate to x509.log.
 	It can span multiple lines, with this indentation.
-depends = 
+depends =
 	zeek >=4.0.0
 
 [template]
@@ -17,4 +17,3 @@ features = license
 name = X509SPKI
 author = Johanna Amann
 license = bsd-2
-
